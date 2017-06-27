@@ -18,6 +18,8 @@ class FirebaseService {
   List<ev.Event> events;
   int EventsCount = 0;
 
+  bool isAuthorized = false;
+
   FirebaseService() {
     fb.initializeApp(
         apiKey: "AIzaSyDdndrBb-kb7BXBbU9TDRVg4ncBlXM3Gtg",
@@ -41,8 +43,10 @@ class FirebaseService {
     if (user != null) {
       events = [];
       _refEvents.limitToLast(3).onChildAdded.listen(_newEvent);
+      isAuthorized = user.email == 'attendant.regional2017@gmail.com';
     } else {
       EventsCount = 0;
+      isAuthorized = false;
     }
   }
 

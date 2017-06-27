@@ -17,7 +17,7 @@ import 'src/views/app_header/app_header.dart';
   selector: 'my-app',
   template: '''
     <app-header></app-header>
-    <div *ngIf="fbService.user != null">
+    <div *ngIf="fbService.user != null && fbService.isAuthorized">
     <nav>
       <a [routerLink]="['Events']">Events</a>
       <!--
@@ -32,6 +32,9 @@ import 'src/views/app_header/app_header.dart';
     </div>
     <div *ngIf="fbService.user == null">
       <p>Sign in to view events.</p>
+    </div>
+    <div *ngIf="fbService.user != null && !fbService.isAuthorized">
+      <p>You are not authorized to view content!</p>
     </div>
   ''',
   styles: const ['.router-link-active {color: #039be5;}'],
