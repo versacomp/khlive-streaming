@@ -1,0 +1,16 @@
+<header class="navbar-dark bg-primary layout horizontal center justified">
+    <div class="horiz">
+        <a class="navbar-brand">KHLive</a>
+    </div>
+
+    <div class="horiz">
+        <div id="sign-in" *ngIf="fbService.user == null" class="horiz">
+            <button class="btn btn-outline-secondary btn-sm" (click)="fbService.signIn()">Google Sign In</button>
+        </div>
+
+        <div id="sign-out" *ngIf="fbService.user != null" class="horiz">
+            <div id="user-name">{{fbService.user?.displayName}}</div>
+            <button class="btn btn-outline-secondary btn-sm" (click)="fbService.signOut()">Sign Out</button>
+        </div>
+    </div>
+</header>
