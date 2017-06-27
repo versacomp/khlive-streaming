@@ -7,6 +7,7 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/src/heroes/hero_detail_component.dart" afterPath="$PROJECT_DIR$/lib/src/events/event_detail_component.dart" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/src/heroes/heroes_component.css" afterPath="$PROJECT_DIR$/lib/src/events/events_component.css" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/src/heroes/heroes_component.txt" afterPath="$PROJECT_DIR$/lib/src/events/heroes_component.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,12 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events_component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events_component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/events/events_component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -119,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/views/app_header/app_header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -176,6 +180,7 @@
         <option value="$PROJECT_DIR$/lib/app_component.dart" />
         <option value="$PROJECT_DIR$/lib/styles/iron-flex-layout.css" />
         <option value="$PROJECT_DIR$/lib/src/events/events_component.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -734,12 +739,12 @@
       <workItem from="1498528399751" duration="394000" />
       <workItem from="1498529055362" duration="339000" />
       <workItem from="1498529444850" duration="6459000" />
-      <workItem from="1498537949662" duration="9037000" />
+      <workItem from="1498537949662" duration="9129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16229000" />
+    <option name="totallyTimeSpent" value="16321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-958" y="-211" width="958" height="1080" extended-state="0" />
@@ -926,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/events/heroes_component.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1090,6 +1085,17 @@
         <state relative-caret-position="120">
           <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
