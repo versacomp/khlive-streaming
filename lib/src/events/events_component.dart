@@ -5,6 +5,7 @@ import 'package:angular2/router.dart';
 
 import 'event.dart' as ev;
 import 'event_service.dart';
+import '../services/firebase_service.dart';
 
 @Component(
   selector: 'khl-events',
@@ -16,10 +17,11 @@ class EventsComponent implements OnInit {
   final Router _router;
   final RouteParams _routeParams;
   final EventService _eventService;
+  final FirebaseService fbService;
   List<ev.Event> events;
   ev.Event selectedEvent;
 
-  EventsComponent(this._eventService, this._router, this._routeParams);
+  EventsComponent(this._eventService, this._router, this._routeParams, FirebaseService this.fbService);
 
   Future<Null> getEvents() async {
     events = await _eventService.getEvents();

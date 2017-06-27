@@ -43,7 +43,7 @@ class FirebaseService {
     if (user != null) {
       events = [];
       _refEvents.limitToLast(3).onChildAdded.listen(_newEvent);
-      isAuthorized = user.email == 'attendant.regional2017@gmail.com';
+      isAuthorized = user.email == 'attendant.regional2017@gmail.com' || user.email == 'mitch.lipayon@gmail.com';
     } else {
       EventsCount = 0;
       isAuthorized = false;
@@ -69,4 +69,6 @@ class FirebaseService {
     _fbAuth.signOut();
   }
 
+  ev.Event getEvent(int id) =>
+      ( this.events.firstWhere((event) => event.id == id));
 }
